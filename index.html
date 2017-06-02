@@ -1,0 +1,537 @@
+	<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>TURISMO DE ATLIXCO</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app11.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/> 
+<!--grupo JavaScript-->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/primer.jpg','imagenes/beni2.JPG','imagenes/f11.jpg','imagenes/f33.jpg','imagenes/f55.jpg','imagenes/e55.jpg','imagenes/C2.jpg','imagenes/ayo.jpg','imagenes/2.jpg','imagenes/Z2.jpg')">
+
+<div data-role="page" id="principal" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+<h1>TURISMO DE ATLIXCO</h1>
+</div>
+
+
+
+<div>
+<ul data-role="listview" data-theme="b" class="ui-list ui-group-theme-b">
+<li class="ui-first-child ui-las ">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2> ATLIXCO</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>TRADICIONES DE ATLIXCO</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r ">
+<h2>EX-CONEVENTO DEL CARMEN</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r ">
+<h2>CALLE DE LAS FLORES</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r ">
+<h2>ZOCALO DE ATLIXCO</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r ">
+<h2>VALNEARIOS</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r ">
+<h2>VIVEROS</h2>
+
+</a>
+</li>
+
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r ">
+<h2>CERRO DE SAN MIGUEL</h2>
+
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r ">
+<h2>DISEÑADORA</h2>
+
+</a>
+</li>
+
+</ul>
+</div>
+
+
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+<img src="res/android/mdpi.png" width="70" height="70">
+</div>
+<div>
+<h4>Atlixco de las flores</h4>
+<h4>Guia Turistica</h4>
+</div>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>ATLIXCO PUEBLA </h1>
+
+</div>
+<center><h2>PUEBLO QUE FLORECE</h2></center>
+<div data-role="content" align="center">
+<div><center>
+  <div data-role="controlgroup" data-type="vertical">
+    <a href="http://www.pueblosmexico.com.mx/clima_pueblos.php?id_rubrique=586" class="ui-btn ui-corner-all">CLIMA</a>
+    <a href="http://www.pueblosmexico.com.mx/llegar_pueblos.php?id_rubrique=587" class="ui-btn ui-corner-all">COMO LLEGAR</a>
+     <a href="http://www.weplann.com/pueblosmexico/riviera-maya" class="ui-btn ui-corner-all">TOURS</a><strong></strong>
+</div>
+
+ </center>
+<div data-role="content" align="center">
+
+<p align="center">Es conocido por su  buen clima y la gran actividad florística, comercial y turística que le  valieron haber sido llamada&nbsp;Atlixco de las Flores&nbsp;y&nbsp;Granero de  la Nueva España, durante la época colonial.</p>
+        <p align="center">El último domingo de  septiembre, en la explanada del cerro de San Miguel, Atlixco se convierte en la  sede de un festival en el que se reúnen los representantes de las once regiones  culturales del estado de Puebla, festival que es llamado «Huey Atlixcáyotl»  o&nbsp;Fiesta Grande de Atlixco&nbsp;y que es patrimonio cultural del estado de  Puebla.</p>
+        <p align="center">Un paseo por el  zócalo de Atlixco es una vivencia magnífica, ya que los visitantes pueden  degustar deliciosos helados o bien ricos platillos en alguno de los muchos  restaurantes que allí se ubican. Es aconsejable saborear la cecina de Atlixco,  el consomé, o truchas preparadas en las versiones más variadas.</p>
+        <p align="center">No lejos del zócalo  de este Pueblo Mágico se encuentra el Mercado, donde se expenden numerosos  productos, como tortillas preparadas a mano y chapulines fritos preparados con  limón y sal. Es admirable como Atlixco de las Flores preserva sus costumbres y  tradiciones.</p>
+<h2><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/2.jpg',1)"><img src="imagenes/1.jpg" width="50%" id="Image16"></a></h2>
+<p>&nbsp;</p>
+<div data-role="main" class="ui-content"> </div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>RESERVA DE HOTELES</h1>
+<div>
+<p>RESERVACION</p>
+<H4>PULSA EN LA IMAGEN</H4>
+<br>
+</div>
+<div> <a href="http://www.pueblosmexico.com.mx/hoteles_pueblos_magicos.php?destination=Atlixco%20Pueblo%20Magico&id_rubrique=586"><img src="imagenes/HOTEL.jpg" width="70%"></a></div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Atlixco de las flores</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>TRADICIONES</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2><strong>Tradición</strong> es cada una de aquellas pautas de convivencia que una comunidad considera dignas de constituirse como una parte integral de sus usos y costumbres. La tradición suele versar genéricamente sobre el conocimiento y también sobre principios o fundamentos socioculturales selectos, que por considerarlos especialmente valiosos o acertados se pretende se extiendan al común, así unas generaciones los transmitirán a las siguientes a fin de que se conserven, se consoliden, se adecúen a nuevas circunstancias.</h2>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Fiesta de Reyes.</h1>
+<div>
+
+</div>
+<div>
+  <p>Es un majestuoso desfile de 5 km de largo en el que más de 15 carros alegóricos, comparsas y bandas locales recorren las calles principales de la Ciudad. Los reyes magos visitan Atlixco el 5 de Enero gracias a que los niños hacen un Festival de la Ilusión en el que les piden que no se olviden de los más necesitados. Con asistencia de más de 60 mil espectadores la Fiesta de Reyes es desde hace mas de 18 años, un evento que involucra a gran parte de la comunidad del Municipio. ¡¡¡</p>
+  <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image24','','imagenes/f11.jpg',1)"><img src="imagenes/f1.jpg" width="70%" id="Image24"></a></p>
+</div>
+</div>
+</div>
+</div>
+
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Semana santa.</h1>
+<div>
+<br>
+</div>
+<div>En esta temporada en la comunidad de Nexatengo desde hace más de 17 años se adornan las calles con flores, hojas de pino y alfombras de aserrín, por donde pasa la imagen del Sr. Jesús de Nazareth en donde más de 8 mil personas provenientes de varias comunidades caminan 8 km en silencio, derivado de ello el Nombre de la Procesión del Silencio.
+
+De igual forma en las principales calles de la ciudad de Atlixco se realiza una de las procesiones de Viernes Santo más impactantes de la región, donde varios hombres conocidos como los Engrillados, recorren las calles encadenados con más de 50 kilos a cuestas, portando coronas de espinas, así como púas o puntas que se colocan en distintas partes del cuerpo, principalmente en hombros y pies, en cumplimiento de alguna promesa o agradecimiento a Dios por un favor recibido. En ambas procesiones se puede apreciar majestuosos tapetes de aserrín, elaborados por los propios lugareños.
+  <a href="http://intoleranciadiario.com/detalle_noticia/92750/municipios/vive-la-semana-santa-en-atlixco"><img src="imagenes/f44.jpg" width="70%"  alt="image"></a> </div>
+</div>
+</div>
+</div>
+
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Villa iluminada.</h1>
+<div>
+<br>
+</div>
+<div>
+  <p>Más de 45 días Atlixco se ilumina con espectaculares figuras que adornarán calles y avenidas en un recorrido que te dejara maravillado, además podrás disfrutar de eventos culturales y artísticos que harán de tu estancia algo magico</p>
+  
+  <center><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image25','','imagenes/f55.jpg',1)"><img src="imagenes/f5.jpg" width="70%"  id="Image25"></a></center> 
+ 
+</div>
+ <p><a href="http://atlixco.gob.mx/fiestas-tradicionales">CONOCER MAS SOBRE LAS TRADICIONES DE ATLIXCO</a></p>
+</div>
+
+
+
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Atlixco de las flores</h4>
+</div>
+</div>
+</div>
+
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Ex-convento del carmen</h1>
+</div>
+<div data-role="content" align="center">
+<div><center>
+  <div data-role="controlgroup" data-type="Vertical">
+    <a href="https://www.zonaturistica.com/atractivo-turistico/1160/exconvento-del-carmen-atlixco.html" class="ui-btn ui-corner-all">conocer mas sobre el ex-convento del carmen</a>
+    </div></center>
+    </div></div>
+<div data-role="content" align="center">
+<div>
+
+  <p>Construido entre 1600 y 1620 lo limita una enorme barda que abarca aproximadamente dos manzanas y es un claro ejemplo del estilo barroco de la época. Cuando fueron exclaustrados los religiosos en 1853 el lugar fue convertido en rastro, luego oficinas gubernamentales, escuela (cuando tiran su torre), cárcel y cuartel para tropas federales. Ahora es conocido como el Centro Cultural del Carmen y alberga un pequeño museo arqueológico.</p>
+  
+    <h2>&nbsp;</h2>
+
+<h1>LEYENDA</h1>
+<p>La segunda orden religiosa que se establece en Atlixco fue la de los carmelitas. Llegaron el 28 de septiembre de 1589, los trámites para la construcción de su iglesia dieron inicio en 1600, cuando los religiosos solicitaron al Cabildo de la Villa de Carrión la autorización para extraer piedra del cerro de San Miguel y emplearla en la construcción de la iglesia del Carmen.
+Sobre los frailes que fungieron como arquitectos de la orden carmelitana se conoce poco, sin embargo sobresale la destreza e ingenio con que resolvieron arquitectónicamente sus obras, a las que les otorgaron un sello característico de buena planeación y ejecución. Los Carmelitas descalzos vivían enclaustrados y el convento e iglesia solo servían a la comunidad española. En 1853 los religiosos fueron enclaustrados, su archivo y biblioteca desaparecieron y en 1857, sus bienes fueron vendidos, la iglesia despojada de sus obras de arte y el convento fue convertido en cuartel militar.</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','imagenes/e55.jpg',1)"><img src="imagenes/e5.jpg" width="70%"  id="Image2"></a></p>
+  </div>
+
+</div>
+
+
+
+
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Atlixco de las flores</h4>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>CALLE DE LAS FLORES</h1>
+
+</div>
+
+<div data-role="content" align="center">
+<div><center>
+  <div data-role="controlgroup" data-type="vertical">
+    <a href="http://www.poblanerias.com/2013/09/atlixco-lugar-de-las-flores-de-puebla/" class="ui-btn ui-corner-all">COMO LLEGAR</a>
+  
+</div>
+
+ </center>
+<div data-role="content" align="center">
+<div>
+</div>
+</div>
+
+<p>Sobre la Avenida Hidalgo se encuentra esta emblemática calle denominada la Calle de las Flores, donde podrás apreciar sus renovadas fachadas adornadas con flores del municipio.</p>
+        <p> Durante el recorrido podrás apreciar las casonas que fueron reconstruidas, hasta llegar a la Escalera Ancha lugar donde se realizaba el Huey Atlixcayotl y ahora tras su remodelación encontraras un reloj gigante hecho a base de flores</p>
+        <p>&nbsp;</p>
+        <CENTER><p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image26','','imagenes/C2.jpg',1)"><img src="imagenes/C1.jpg" width="70%"  id="Image26"></a>.</p></CENTER></td>
+    </tr>
+  </tbody>
+</table>
+<h2>&nbsp;</h2>
+<p>&nbsp;</p>
+<div data-role="main" class="ui-content"> </div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>VIDEO DE UN PEQUEÑO RECORRIDO  LAS CALLES DE LAS FLORES</h1>
+<div>
+<br>
+</div>
+<div> <a href=https://www.youtube.com/watch?v=TFonI4swEoI"><img src="imagenes/C3.jpg" width="50%" height="50%"></a></div>
+</div>
+</div>
+</div>
+
+
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Atlixco de las flores</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>ZOCALO DE ATLIXCO</h1>
+</div>
+
+
+<p>En el zócalo de Atlixco destacan monumentos erigidos a Benito Juárez, Isaac Ochoterena - creador de la biología moderna en México, Francisco Pablo Vásquez además una placa dedicada al "Aguacate Padre".</p>
+  <p>Antiguamente tenía una fuente de piedra la cual fue reubicada en el parque de la rotonda, en la actualidad tiene instalado un quiosco de estilo sevillano construido en la última mitad del siglo XX y alrededor del zócalo se encuentran colocadas bancas de azulejos con paisajes típicos.</p>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image44','','imagenes/Z2.jpg',1)"><img src="imagenes/Z1.jpg" width="70%"  id="Image44"></a>
+<div data-role="content" align="center">
+  
+  <div data-role="controlgroup" data-type="Vertical">
+    <a href="https://es.foursquare.com/explore?cat=coffee&mode=url&near=Atlixco%2C%20PUE%2C%20M%C3%A9xico&nearGeoId=72057594041460528" class="ui-btn ui-corner-all">CAFE</a>
+    <div data-role="controlgroup" data-type="Vertical">
+    <a href="https://es.foursquare.com/explore?cat=food&mode=url&near=Atlixco%2C%20PUE&nearGeoId=72057594041460528" class="ui-btn ui-corner-all">COMIDA</a>
+    <div data-role="controlgroup" data-type="Vertical">
+    <a href="https://es.foursquare.com/explore?cat=arts&mode=url&near=Atlixco%2C%20PUE%2C%20M%C3%A9xico&nearGeoId=72057594041460528" class="ui-btn ui-corner-all">DIVERSION</a>
+    </div>
+    
+  <div>
+  <br></div>
+</div>
+<div>
+
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Atlixco de las flores</h4>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Balnearios</h1>
+</div>
+
+<div data-role="content" align="center">
+<center>
+  <div data-role="controlgroup" data-type="vertical">
+    <a href="http://www.poblanerias.com/2013/09/atlixco-lugar-de-las-flores-de-puebla/" class="ui-btn ui-corner-all">PARQUE RECREATIVO AYOA</a>
+     <div data-role="controlgroup" data-type="vertical">
+    <a href="http://www.poblanerias.com/2013/09/atlixco-lugar-de-las-flores-de-puebla/" class="ui-btn ui-corner-all">AQUA PARAÍSO</a>
+     <div data-role="controlgroup" data-type="vertical">
+    <a href="http://www.poblanerias.com/2013/09/atlixco-lugar-de-las-flores-de-puebla/" class="ui-btn ui-corner-all">BALNEARIO LAS FAJANAS</a>
+  
+</div>
+     <div data-role="content" align="center">
+  <div>
+</div>
+</div>
+     <p>los balnearios son centro sanitarios autorizados por las correspondientes autoridades sanitarias, donde se realizan tratamientos de medicina termal para enfermedades reumatológicas, respiratorias, digestivas, de vías urinarias, dermatológicas, de ORL otorrinolaringología, y del sistema nervioso. </p>
+        <p>En Latinoamérica y en otros continentes se conciben como balnearios centros marino</p>
+       
+<p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image26','','imagenes/ayo.jpg',1)"><img src="imagenes/ayo1.jpg" width="50%"  id="Image"></a></p>
+<div data-role="main" class="ui-content"> </div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>LA CASCADA</h1>
+<div>
+<br>
+</div>
+<div><a href="https://www.youtube.com/watch?v=K9FJkU9homk"><img src="imagenes/CAS.jpg" width="70%"></a></div>
+</div>
+</div>
+</div>
+
+
+
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Atlixco de las flores</h4>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>VIVEROS </h1>
+
+</div>
+
+Cada flor tiene un significado dependiendo de su color por eso te contamos qué es lo que transmite cada uno de ellos.
+Flores blancas: se relacionan con las nuevas noticias, transmiten sentimientos positivos y alegres. Además es un símbolo de la alegría, elegancia, belleza y perfección.
+Flores rosas: es el color más femenino y las flores llevan consigo la juventud y la sinceridad de una amistad. También la ingenuidad, ternura, bondad y dulzura de un nuevo romance.
+Flores amarillas: están llena de sentimientos como el lujo, el éxito y la felicidad que produce un gran amor.
+Flores rojas: el color mas intenso y apasionado, perfecto para transmitir el deseo, la sensualidad y la sensibilidad de un amor intenso y fuerte.
+Flores: azules con este color conseguimos un bonito contraste con el resto de tonalidades por la aportación de tranquilidad, la cual se complementa con la fuerza del resto. Transmite importantes sentimientos para los novios como la confianza, el afecto, la fidelidad y el amor .
+Flores moradas: Transmite calma, justicia, paz, dulzura y humildad.
+
+
+
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/406432.jpg" alt="406432" title="406432" id="wows1_0"/></li>
+		<li><img src="data1/images/1101770x470.jpg" alt="1101770x470" title="1101770x470" id="wows1_1"/></li>
+		<li><img src="data1/images/casafea.jpg" alt="casafea" title="casafea" id="wows1_2"/></li>
+		<li><img src="data1/images/fotoincen.jpg" alt="fotoincen" title="fotoincen" id="wows1_3"/></li>
+		<li><img src="data1/images/images.jpg" alt="images" title="images" id="wows1_4"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/img_0009.jpg" alt="wowslideshow" title="img_0009" id="wows1_5"/></a></li>
+		<li><img src="data1/images/viviendas4.jpg" alt="viviendas4" title="viviendas4" id="wows1_6"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="406432"><span><img src="data1/tooltips/406432.jpg" alt="406432"/>1</span></a>
+		<a href="#" title="1101770x470"><span><img src="data1/tooltips/1101770x470.jpg" alt="1101770x470"/>2</span></a>
+		<a href="#" title="casafea"><span><img src="data1/tooltips/casafea.jpg" alt="casafea"/>3</span></a>
+		<a href="#" title="fotoincen"><span><img src="data1/tooltips/fotoincen.jpg" alt="fotoincen"/>4</span></a>
+		<a href="#" title="images"><span><img src="data1/tooltips/images.jpg" alt="images"/>5</span></a>
+		<a href="#" title="img_0009"><span><img src="data1/tooltips/img_0009.jpg" alt="img_0009"/>6</span></a>
+		<a href="#" title="viviendas4"><span><img src="data1/tooltips/viviendas4.jpg" alt="viviendas4"/>7</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">responsive slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Atlixco de las flores</h4>
+</div>
+</div>
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>CERRO DE SAN MIGUEL</h1>
+</div>
+
+<div>
+
+<div data-role="collapsible" data-content-theme="false">
+<h1>INFORMACION DEL CERRITO DE SAN MIGUEL</h1>
+<div>
+<br>
+</div>
+<div><p align="center">También conocido como Popocatica (cerro que humea) o Macuilxochitpec (cerro de las cinco flores), es el lugar en donde se realiza la fiesta máxima de Atlixco que se lleva a cabo el último domingo de septiembre y para la que se reúnen los representantes de las once regiones culturales de Puebla. Pero aunque tu visita no coincida con la fecha, el lugar te ofrece una maravillosa vista panorámica y siempre puedes visitar la Capilla de San Miguel.
+La magia inigualable, en una zona geográfica que goza del hoy llamado “Mejor clima del mundo”, cuyos paisajes inigualables y coloridos llenos de misticismo en complicidad con los dos colosos de la madre naturaleza de belleza incomparable llamados Popocatepetl e Iztaccihuatl, los cuales parecieran emanar una energía épica, ideal para generar un entorno verdaderamente mágico.</p>
+<p align="center"> Es aquí entonces donde se desarrolló esta gran ciudad llamada Atlixco la cual es un ícono para cada uno de los habitantes de esta ciudad y un atractivo único para los visitantes que aprecian el mágico Cerro de San Miguel el cual está enclavado en pleno centro de la ciudad y en este un ex convento de con las características de un castillo medieval.
+  
+  Se dice que Desde antiguo las familias atlixquenses subían al cerro a divertirse, llevaban comida, volaban papalotes, sobre todo durante el mes de septiembre muchos jóvenes ascendían al cerro a partir de las cinco de la mañana para entrar a la ermita y escuchar misa, alumbrados de teas y cantar durante una semana las mañanitas tradicionales al ángel que además es el abogado del diablo en la Corte Celestial.  </p>
+<p align="center">El cerro ha sido testigo de toda la vida de Atlixco y sus habitantes. </p>
+<p align="center">Es un cerro que encierra misterios, energías, guarda voces del tiempo, testigo de la transformación de la ciudad y su gente. Es un cerro que desde ahí cerca de 50 años se juntan las etnias de la región y del estado para bailarle a Quetzalcóatl y a Macuilxochitl en el Huey Atlixcáyotl, antiquísima fiesta de celebraciones mediante la música y el baile para dar de comer y agradar a los dioses antiguos y a los santos modernos que tienen como emblema de redención en Cristo. </p></div>
+
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>FOTOGRAFIA DEL CERRO</h1>
+<div>
+<br>
+</div>
+<div> <CENTER><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image29','','imagenes/CERRR.jpg',1)"><img src="imagenes/CERR.jpg" width="70%" id="Image29"></a></CENTER></div>
+</div>
+</div>
+</div>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/1.jpg" alt="ATLIXCO" height="363"  id="wows1_0" title="PUEBLO MAGICO"/></li>
+		<li><img src="data1/images/2.jpg" alt="PUEBLO MAGICO" height="361"  id="wows1_1" title="ATLIXCO"/></li>
+		<li><img src="data1/images/3.jpg" alt="PUEBLO MAGICO" height="361"   id="wows1_2" title="PUEBLO MAGICO"/></li>
+		<li><img src="data1/images/4.jpg" alt="ATLIXCO" width="617" height="361"  id="wows1_3" title="PUEBLO MAGICO"/></li>
+		<li><img src="data1/images/5.jpg" alt="ATLIXCO PUEBLO MAGICO" height="361"  id="wows1_4" title="ATLIXCO"/></li>
+		<li><img src="data1/images/6.jpg"   alt="PUEBLO MAGICO" width="738" height="361" id="wows1_5" title="ATLIXCO"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/7.jpg" alt="ATLIXCO" width="731" height="362"  id="wows1_6" title="ATLIXCO"/></a></li>
+		<li><img src="data1/images/8.jpg" alt="ATLIXCO PUEBLO MAGICO" width="590" height="362"  id="wows1_7" title="ATLIXCO PUEBLO MAGICO"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="PUEBLO MAGICO"><span><img src="data1/tooltips/B1.jpg"  alt="PUEBLO MAGICO"/>1</span></a>
+		<a href="#" title="PUEBLO MAGICO"><span><img src="data1/tooltips/B2.jpg"  alt="PUEBLO MAGICO"/>2</span></a>
+		<a href="#" title="PUEBLO MAGICO"><span><img src="data1/tooltips/B3.jpg"  alt="PUEBLO MAGICO"/>3</span></a>
+		<a href="#" title="PUEBLO MAGICO"><span><img src="data1/tooltips/B4.jpg" alt="PUEBLO MAGICO"/>4</span></a>
+		<a href="#" title="PUEBLO MAGICO"><span><img src="data1/tooltips/B5.jpg"  alt="PUEBLO MAGICO"/>5</span></a>
+		<a href="#" title="PUEBLO MAGICO"><span><img src="data1/tooltips/B6.jpg" alt="PUEBLO MAGICO"/>6</span></a>
+		<a href="#" title="PUEBLO MAGICO"><span><img src="data1/tooltips/B7.jpg"  alt="PUEBLO MAGICO"/>7</span></a>
+		<a href="#" title="PUEBLO MAGICO"><span><img src="data1/tooltips/B8.jpg"  alt="PUEBLO MAGICO"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slideshow</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+
+
+
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Atlixco de las flores</h4>
+</div>
+</div>
+<div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>DATOS DE LA DISEÑADORA</h1>
+</div>
+
+<p align="center">NOMBRE: JACQUELINE ESPINOZA MENDEZ
+</p>
+<p align="center">GRUPO: "H" 
+  SEMESTRE: 4
+</p>
+<p align="center">PROFESOR: JOSE ANTONIO GOMEZ HERNANDEZ  </p>
+<p align="center">SUBMODULO: DESARREOLO DE APLICACIONES MOVILES</p>
+<p>&nbsp; </p>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>FOTOGRAFIA DE LA DISEÑADORA</h1>
+<div>
+<br>
+</div>
+<div><center><img src="imagenes/YO.jpg" width="70%"></center> </div>
+</div>
+
+<div>
+</div></div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Atlixco de las flores</h4>
+</div>
+</div>
+
+
+</body>
+</html>
